@@ -3,7 +3,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:model_test/videos/repos/video_config_repogitory.dart';
 import 'package:model_test/videos/view_models/video_config_vm.dart';
 import 'package:model_test/videos/views/video_timeline_screen.dart';
-import 'package:model_test/videos/views/videos_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() async {
