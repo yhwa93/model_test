@@ -3,14 +3,14 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:model_test/videos/view_models/video_config_vm.dart';
 
-class VideoPostScreen extends ConsumerStatefulWidget {
-  const VideoPostScreen({super.key});
+class VideoPost extends ConsumerStatefulWidget {
+  const VideoPost({super.key});
 
   @override
   VideoPostScreenState createState() => VideoPostScreenState();
 }
 
-class VideoPostScreenState extends ConsumerState<VideoPostScreen> {
+class VideoPostScreenState extends ConsumerState<VideoPost> {
 
   void _onTapVolume(){
     final muted = ref.read(videoConfigProvider).muted;

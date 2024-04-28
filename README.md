@@ -37,10 +37,18 @@
 ## (Async)NotifierProvider
 
 ### Notifier
+
+### AsyncNotifier
+- 뷰모델은 API로부터 얻어온 값을 제공할 것
+- API로부터 응답을 받을 때까지 기다려야하기때문에 Async를 사용
+
 ### NotifierProvider
 ### AsyncNotifierProvider
 - Firebase에서 데이터를 가져오기
 - Provider는 데이터를 얻기도하고 가지고 있는 메서드를 밑에서 사용할 수 있게함
+
+# FutureOr
+
 
 ## Ref
 - Provide를 가져오거나 읽을 수 있는 레퍼런스

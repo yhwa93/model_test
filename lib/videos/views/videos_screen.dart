@@ -34,7 +34,7 @@ class VideosScreen extends ConsumerWidget {
           const SizedBox(
             height: 20,
           ),
-          const VideoPostScreen(),
+          const VideoPost(),
         ],
       ),
     );
